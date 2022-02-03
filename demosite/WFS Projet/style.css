@@ -1,0 +1,327 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+.logo {
+    height:120px ;
+    width: 120px;
+    float: right;
+}
+#pic{
+    height: 700px;
+    width: 1390px;
+}
+
+ html {
+    font-size: 100%;
+    overflow-y: scroll;
+}
+ body {
+font-size: 13px;
+line-height: 1.231;
+font: 16px/26px helvetica, helvetica neue, arial;
+margin: o;
+}
+ body, button, input, select, textarea{
+   font-family: sans-serif;
+   color: #222;  
+ }
+ a:focus
+{
+    outline: thin dotted;
+}
+a:hover, a:active
+{
+    outline: 0px;
+}
+nav
+{
+    float: top;
+    width: 38%;
+}
+#header-container,#footer-container,#main aside
+{
+    background: #232b2b;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.315);
+    border-top: 20px solid #061deb;
+}
+#footer-container
+{
+    border-top: 20px solid #061deb;
+}
+#main aside
+{
+    border-top: 20px solid #061deb;
+    color: #fff;
+    padding:0 5% 10px
+}
+ form#payment ol
+  {
+     padding: 0;
+ }
+ form#payment fieldset
+  {
+     border: none;
+     margin-bottom: 10px;
+ }
+form#payment fieldset:last-of-type
+{
+    margin-bottom: 0;
+}
+form#payment
+{
+    background: #e2020218;
+    counter-reset: fieldsets;
+    width: 96%;
+    padding: 4%;
+}
+
+form#payment fieldset fieldset legend
+{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+form#payment ol li 
+{
+    background: rgba(255, 255, 255, .3);
+    line-height: 30px;
+    list-style: none;
+    border-color: rgba(255, 255, 255, .6);
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+}
+form#payment ol ol li
+{
+    background: none;
+    border: none;
+    float: left;
+}
+form#payment label
+{
+    float: left;
+    font-size: 13px;
+    width: 110px;
+}
+form#payment fieldset fieldset label
+{
+    background: none no-repeat left 50%;
+    width: auto;
+    padding: 0 0 0 30px;
+}
+
+form#payment input:not([type=radio]), form#payment textarea
+{
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    font: italic 13px ;
+    outline: none;
+    width: 98%;
+    padding: 4px;
+}
+form#payment input:not([type=submit]):focus,form#payment textarea:focus
+{
+    background: #eaeaea;
+}
+form#payment input [type=radio]
+{
+    float: left;
+    margin-right: 5px;
+}
+form#payment button
+{
+    background: #000000;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    font: 18px Geosanslight;
+    letter-spacing: 0 1px 1px#000;
+    text-transform: uppercase;
+    margin: auto;
+    padding: 7px 25px;
+}
+form#payment button:hover
+{
+    background: #1e2506;
+    cursor: pointer;
+}
+
+fieldset
+{
+    border:0;
+    margin: 0;
+    padding: 0;
+} 
+
+form#payment
+{
+    background: #6d010100;
+    counter-reset: fieldsets;
+    width: 96%;
+    padding: 4%;
+}
+
+form#payment ol
+{
+    padding: 0;
+}
+
+form#payment fieldset
+{
+    border: 0;
+    margin-bottom: 10px;
+}
+
+form#payment fieldset:last-of-type
+{
+    margin-bottom: 0;
+}
+
+form#payment legend
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+
+form#payment fieldset fieldset legend
+{
+    color: #111;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+
+form#payment ol li
+{
+    background: rgba(255, 255, 255, .3);
+    line-height: 30px;
+    list-style: none;
+    margin-bottom: 2px;
+    border-color: rgba(255, 255, 255, .6);
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+}
+
+form#payment ol ol li
+{
+    background: none;
+    border: none;
+    float: left;
+}
+
+
+form#payment label
+{
+    float: left;
+    font-size: 13px;
+    width: 110px;
+}
+
+form#payment fieldset fieldset label
+{
+    background: none no-repeat left 50px;
+    line-height: 20px;
+    width: auto;
+    padding: 0 0 0 30px;
+}
+
+form#payment input[type=radio]
+{   
+    margin-right: 5px;
+}
+
+form#payment button
+{
+background: #000000;
+border: none; 
+border-radius: 20px;
+color: #fff;
+display: block;
+font: 18px GeosansLight;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin: auto;
+padding: 7px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
